@@ -3,8 +3,8 @@ var percentage = 0;
 
 function process() {
   percentage += parseInt(Math.random() * 10);
-  if (percentage > 146) {
-    percentage = 146;
+  if (percentage > 150) {
+    percentage = 150;
   }
   percentageElement.innerText = percentage;
   processInterval();
